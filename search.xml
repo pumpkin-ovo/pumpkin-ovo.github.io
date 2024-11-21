@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>Redis</title>
+      <link href="/2024/11/21/Redis/"/>
+      <url>/2024/11/21/Redis/</url>
+      
+        <content type="html"><![CDATA[<h1>认识Redis</h1><h2 id="sql和nosql">sql和nosql</h2><p>SQL和NoSQL是两种不同的数据库管理系统</p><p><code>SQL：</code>（Structured Query Language）即结构化查询语言，主要用于关系型数据库管理系统</p><ul><li>结构化、关联的、SQL查询、ACID</li><li>磁盘存储，会有大量的磁盘IO，对性能有一定影响</li><li>扩展性：关系型数据库集群模式一般是主从，主从数据一致，起到数据备份的作用，称为垂直扩展</li><li>使用场景： 数据结构固定，相关业务对数据安全性、一致性要求较高</li></ul><p><code>NoSQL：</code>（Not Only SQL）即非关系型数据库，泛指那些不使用SQL作为查询语言的数据库系统</p><ul><li>非结构化<ul><li>键值类型（Redis）</li><li>文档类型（MongDB）</li><li>列类型（HBase）</li><li>Graph类型（Neo4j）</li></ul></li><li>无关联的、非SQL、BASE</li><li>内存存储，内存的读写速度会非常快，性能自然会好一些</li><li>扩展性：非关系型数据库可以将数据拆分，存储在不同机器上，可以保存海量数据，解决内存大小有限的问题，称为水平扩展</li><li>使用场景：数据结构不固定，对数据安全性、一致性要求较不高，对性能有要求</li></ul><h2 id="Redis简介">Redis简介</h2><p>Redis诞生于2009年全称是Remote Dictionary Server 远程词典服务器，是一个基于内存的键值型NoSQL数据库。</p><p>特征：</p><ul><li>键值（key-value）型，value支持多种不同数据结构，功能丰富</li><li>单线程，每个命令具备原子性</li><li>低延迟，速度快（基于内存、IO多路复用、良好的编码）。</li><li>支持数据持久化，支持主从集群、分片集群，支持多语言客户端</li><li>作者：Antirez</li></ul><p>Redis的官方网站地址：<a href="https://redis.io/">https://redis.io/</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>一些名词解释</title>
       <link href="/2024/11/20/PO%E3%80%81VO%E3%80%81BO%E3%80%81DTO/"/>
       <url>/2024/11/20/PO%E3%80%81VO%E3%80%81BO%E3%80%81DTO/</url>
@@ -47,7 +60,7 @@
       <link href="/2024/11/14/helloworld-md/"/>
       <url>/2024/11/14/helloworld-md/</url>
       
-        <content type="html"><![CDATA[<p>存储一些我要用的markdown和插件语法</p><div class="tabs" id=""><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#-1">1</button></li><li class="tab"><button type="button" data-href="#-2">2</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="-1"><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">```</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line">&lt;!-- tab --&gt;</span><br><span class="line">```java</span><br></pre></td></tr></table></figure><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="-2"><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div><psw>喜欢你是我的秘密</psw>]]></content>
+        <content type="html"><![CDATA[<p>存储一些我要用的markdown和插件语法</p><div class="tabs" id=""><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#-1">1</button></li><li class="tab"><button type="button" data-href="#-2">2</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="-1"><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">```</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line">&lt;!-- tab --&gt;</span><br><span class="line">```java</span><br></pre></td></tr></table></figure><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="-2"><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div><psw>喜欢你是我的秘密</psw><ul><li>无序列表 1</li><li>无序列表 2<ul><li>无序列表 2.1</li><li>无序列表 2.2</li></ul></li></ul><ol><li>有序列表 1<br>1.1 有序列表 1.1</li><li>有序列表 2<br>2.1 有序列表2.1</li></ol>]]></content>
       
       
       
