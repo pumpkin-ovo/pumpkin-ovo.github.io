@@ -2,9 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://pumpkin-ovo.github.io/2024/11/17/new%20orders/</loc>
+    
+    <lastmod>2024-11-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pumpkin-ovo.github.io/2024/11/20/PO%E3%80%81VO%E3%80%81BO%E3%80%81DTO/</loc>
+    
+    <lastmod>2024-11-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pumpkin-ovo.github.io/gossip/index.html</loc>
+    
+    <lastmod>2024-11-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://pumpkin-ovo.github.io/2024/11/22/Redis2/</loc>
     
-    <lastmod>2024-11-26</lastmod>
+    <lastmod>2024-11-28</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -13,7 +40,7 @@
   <url>
     <loc>https://pumpkin-ovo.github.io/2024/11/14/helloworld-md/</loc>
     
-    <lastmod>2024-11-26</lastmod>
+    <lastmod>2024-11-27</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -32,24 +59,6 @@
     <loc>https://pumpkin-ovo.github.io/2024/11/19/Mybatis-Plus/</loc>
     
     <lastmod>2024-11-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pumpkin-ovo.github.io/2024/11/20/PO%E3%80%81VO%E3%80%81BO%E3%80%81DTO/</loc>
-    
-    <lastmod>2024-11-20</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pumpkin-ovo.github.io/2024/11/17/new%20orders/</loc>
-    
-    <lastmod>2024-11-17</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -84,15 +93,6 @@
   
   <url>
     <loc>https://pumpkin-ovo.github.io/link/index.html</loc>
-    
-    <lastmod>2024-11-15</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pumpkin-ovo.github.io/gossip/index.html</loc>
     
     <lastmod>2024-11-15</lastmod>
     
@@ -175,12 +175,26 @@
 
   <url>
     <loc>https://pumpkin-ovo.github.io/</loc>
-    <lastmod>2024-11-26</lastmod>
+    <lastmod>2024-11-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
 
+  
+  <url>
+    <loc>https://pumpkin-ovo.github.io/categories/%E9%97%AE%E9%A2%98-null/</loc>
+    <lastmod>2024-11-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pumpkin-ovo.github.io/categories/%E8%A7%A3%E9%87%8A-null/</loc>
+    <lastmod>2024-11-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
 </urlset>
